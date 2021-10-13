@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    text-transform: uppercase;
+}
+
+ul li {
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.blank {
+    background: linear-gradient(to right, rgb(230, 218, 206), white);
+    height: calc(100vh - 65px);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .left {
+    background: rgb(230, 218, 206);
+    height: calc(100vh - 65px);
+    width: 45%;
+}
+
+.right {
+    background: rgb(100, 96, 96);
+    width: calc(100vw - 45%);
+} */
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.avtaar {
+    background: lightgreen;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(244, 236, 230);
+}
+
+#name {
+    margin: 30px 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#name::after {
+    content: "";
+    background: blue;
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 5px auto;
+}
+
+#designation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.content {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+#greeting {
+    font-size: 4rem;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#greeting:after {
+    content: "";
+    background: blue;
+    display: block;
+    top: 100%;
+    right: 0%;
+    width: 100px;
+    height: 3px;
+}
+
+#about {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.btn-box {
+    display: flex;
+}
+
+button {
+    width: 100px;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    transition: background, color .8s;
+}
+
+.resume {
+    background: blue;
+    color: white;
+}
+
+.projects {
+    background: white;
+    color: black;
+}
+
+.projects:hover {
+    background: blue;
+    color: white;
+}
+
+.resume:hover {
+    background: white;
+    color: black;
+}
+
+#details {
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
